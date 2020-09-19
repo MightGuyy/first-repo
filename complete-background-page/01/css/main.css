@@ -1,0 +1,28 @@
+html{
+    /* broder: 10px solid blue; */
+}
+
+body{
+    /* border: 10px solid rgb(2, 77, 18); */
+}
+
+#idx-atf{
+    /* layout */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* backround */
+    background-color: #5b5b5b;
+    background-image: url("../image/background-photo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.idx-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
